@@ -1,0 +1,29 @@
+
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.condiv {
+  padding: 100px;
+  background-color: blue;
+  flex: var(--condiv-flex);
+}
